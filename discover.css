@@ -1,0 +1,66 @@
+body {
+    position: relative;
+    font-family: 'Poppins';
+    
+    
+    background-color: #2F303A;
+    }
+
+    .text{
+        position: absolute;
+        width: 732px;
+        height: 108px;
+        left: 79px;
+        top: 90px; 
+    }
+
+    h1{
+ font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 68px;
+line-height: 108px;
+/* identical to box height */
+color: #FFFFFF;
+    }
+  .img{
+    position: absolute;
+width: 100px;
+height: 100px;
+left: 79px;
+top: 250px;
+  }  
+  
+  .img1{
+    position: absolute;
+width: 100px;
+height: 100px;
+left: 200px;
+top: 250px;
+  }
+  .sub-text{
+    position: absolute;
+width: 476px;
+height: 156px;
+left: 86px;
+top: 350px;
+  }
+
+  h3{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 48px;
+
+color: #FFFFFF;
+  }
+  .covers{
+    position: absolute;
+width: 400px;
+height: 400px;
+left: 846px;
+top: 190px;
+
+
+  }
