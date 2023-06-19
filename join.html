@@ -1,28 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="join.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Join me</title>
-<forum action ="backend.php">
+    <div class = "breadcrumb">
+    <h1>Join the <em>fun.</em></h1>
+ 
+    </div>
+    <div class = "form">
+<forum action ="backend.php" method ="POST">
     
-    <div>
-        Name:<input type="text" name="myName">
-    </div>
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
     <br>
-    <div>
-        Email:<input type="text" name="myEmail">
-    </div>
-    <br>
-    <div>
-        Password:<input type="password" name="mypassword ">
-    </div>
-    <br>
-    <div>
-        <input type="submit"  value="Submit now">
-    </div>
-</forum>
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+     <br>
+     <label for="email">Email Id</label>
+    <input type="text" id="email" name="email_id" placeholder="Your email Id..">
+     <br>
+     <label for="password">Password</label>
+     <input type="password" id="password_1" name="passwordd" placeholder="Your password..">
+      <br>
+       
+    <input type="submit" value="Submit">
+    
+</div>
 </head>
 <body>
     

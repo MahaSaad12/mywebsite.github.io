@@ -5,34 +5,83 @@ body {
     
     background-color: #2F303A;
     }
-    .container{
-        position: absolute;
-width: 500px;
-height: 500px;
-left: 840px;
-top: 90px;
+    .breadcrumb{
+        font-family: Poppins;
 
-background: white;
-border-radius: 40px;
+text-align: left;
+
+
+color:white;
     }
-    input[type=text]{
+    h1{
         position: absolute;
-width: 104px;
-height: 48px;
-left: 708px;
-top: 157px;
+width: 493px;
+height: 144px;
+left: 290px;
+top: 150px;
 
 font-family: 'Poppins';
 font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 48px;
+font-weight: 700;
+font-size: 80px;
+line-height: 144px;
 /* identical to box height */
 
 text-align: center;
 
-color: #FFFFFF;
+color: white;}
+em{
+    color: palevioletred;
+    font-size: 98px;
+    
+}
 
-
-
-    }
+    
+    
+    input[type=text], select {
+        width: 35%;
+       
+        padding: 12px 20px;
+        margin: 8px 0;
+        margin-left: 890px;
+        display: inline-block;
+       
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+      input[type=password], select {
+        width: 35%;
+       
+        padding: 12px 20px;
+        margin: 8px 0;
+        margin-left: 890px;
+        display: inline-block;
+        
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+      label{
+        color: white;
+        margin-left: 890px;
+      }
+      input[type=submit] {
+        width: 35%;
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        margin-left: 890px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      input[type=submit]:hover {
+        background-color: #45a049;
+      }
+      
+      div {
+        border-radius: 5px;
+        background-color: #2F303A;
+        padding: 20px;
+      }
